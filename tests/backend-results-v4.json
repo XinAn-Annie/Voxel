@@ -1,0 +1,38 @@
+[
+  {
+    "model": "cube",
+    "candidate_nodes": 32768,
+    "counts": [
+      8,
+      8,
+      2080
+    ]
+  },
+  {
+    "model": "sphere",
+    "candidate_nodes": 19175,
+    "counts": [
+      8,
+      8,
+      6498
+    ]
+  },
+  {
+    "model": "animal",
+    "candidate_nodes": 1689,
+    "counts": [
+      220,
+      657,
+      1388
+    ]
+  },
+  {
+    "model": "Bear_3d",
+    "candidate_nodes": 5837,
+    "counts": [
+      244,
+      1369,
+      3429
+    ]
+  }
+]

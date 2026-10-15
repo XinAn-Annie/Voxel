@@ -1,0 +1,299 @@
+[
+  {
+    "model": "cube",
+    "analysis_ms": 937.3,
+    "candidate_nodes": 13705,
+    "updates": [
+      {
+        "voxel_count": 456,
+        "min_depth": 2,
+        "max_depth": 3,
+        "min_size": 0.125,
+        "min_size_mm": 22.5,
+        "min_size_cm": 2.25,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 4.9,
+        "analysis_runs": 1,
+        "threshold": 0.8,
+        "api_ms": 8.3
+      },
+      {
+        "voxel_count": 1016,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 9.3,
+        "analysis_runs": 1,
+        "threshold": 0.48,
+        "api_ms": 13.2
+      },
+      {
+        "voxel_count": 1016,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 9.5,
+        "analysis_runs": 1,
+        "threshold": 0.2,
+        "api_ms": 13.3
+      }
+    ],
+    "size_distribution": {
+      "0.0625": 640,
+      "0.125": 368,
+      "0.25": 8
+    }
+  },
+  {
+    "model": "sphere",
+    "analysis_ms": 1122.9,
+    "candidate_nodes": 11977,
+    "updates": [
+      {
+        "voxel_count": 248,
+        "min_depth": 2,
+        "max_depth": 3,
+        "min_size": 0.125,
+        "min_size_mm": 22.5,
+        "min_size_cm": 2.25,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 2.6,
+        "analysis_runs": 1,
+        "threshold": 0.8,
+        "api_ms": 4.9
+      },
+      {
+        "voxel_count": 269,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 2.4,
+        "analysis_runs": 1,
+        "threshold": 0.48,
+        "api_ms": 4.6
+      },
+      {
+        "voxel_count": 1336,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 12.3,
+        "analysis_runs": 1,
+        "threshold": 0.2,
+        "api_ms": 16.8
+      }
+    ],
+    "size_distribution": {
+      "0.0625": 24,
+      "0.125": 237,
+      "0.25": 8
+    }
+  },
+  {
+    "model": "cube_thin_rod",
+    "analysis_ms": 455.5,
+    "candidate_nodes": 5449,
+    "updates": [
+      {
+        "voxel_count": 52,
+        "min_depth": 2,
+        "max_depth": 3,
+        "min_size": 0.125,
+        "min_size_mm": 22.5,
+        "min_size_cm": 2.25,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 0.7,
+        "analysis_runs": 1,
+        "threshold": 0.8,
+        "api_ms": 2.3
+      },
+      {
+        "voxel_count": 92,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 1.0,
+        "analysis_runs": 1,
+        "threshold": 0.48,
+        "api_ms": 2.7
+      },
+      {
+        "voxel_count": 188,
+        "min_depth": 2,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 2.0,
+        "analysis_runs": 1,
+        "threshold": 0.2,
+        "api_ms": 4.2
+      }
+    ],
+    "size_distribution": {
+      "0.0625": 44,
+      "0.125": 44,
+      "0.25": 4
+    },
+    "body_median_size": 0.125,
+    "rod_median_size": 0.0625
+  },
+  {
+    "model": "cone",
+    "analysis_ms": 773.3,
+    "candidate_nodes": 7625,
+    "updates": [
+      {
+        "voxel_count": 136,
+        "min_depth": 3,
+        "max_depth": 3,
+        "min_size": 0.125,
+        "min_size_mm": 22.5,
+        "min_size_cm": 2.25,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 1.4,
+        "analysis_runs": 1,
+        "threshold": 0.8,
+        "api_ms": 3.4
+      },
+      {
+        "voxel_count": 237,
+        "min_depth": 3,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 2.4,
+        "analysis_runs": 1,
+        "threshold": 0.48,
+        "api_ms": 4.7
+      },
+      {
+        "voxel_count": 616,
+        "min_depth": 3,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 6.0,
+        "analysis_runs": 1,
+        "threshold": 0.2,
+        "api_ms": 9.0
+      }
+    ],
+    "size_distribution": {
+      "0.0625": 120,
+      "0.125": 117
+    },
+    "base_median_size": 0.0625,
+    "tip_median_size": 0.0625,
+    "curvature_weight_counts": [
+      136,
+      616
+    ],
+    "thickness_weight_counts": [
+      237,
+      252
+    ]
+  },
+  {
+    "model": "animal",
+    "analysis_ms": 415.1,
+    "candidate_nodes": 2889,
+    "updates": [
+      {
+        "voxel_count": 38,
+        "min_depth": 3,
+        "max_depth": 3,
+        "min_size": 0.125,
+        "min_size_mm": 22.5,
+        "min_size_cm": 2.25,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 0.5,
+        "analysis_runs": 1,
+        "threshold": 0.8,
+        "api_ms": 2.5
+      },
+      {
+        "voxel_count": 65,
+        "min_depth": 3,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 0.7,
+        "analysis_runs": 1,
+        "threshold": 0.48,
+        "api_ms": 2.7
+      },
+      {
+        "voxel_count": 128,
+        "min_depth": 3,
+        "max_depth": 4,
+        "min_size": 0.0625,
+        "min_size_mm": 11.25,
+        "min_size_cm": 1.125,
+        "target_model_size_mm": 180.0,
+        "min_printed_voxel_mm": 10.1,
+        "effective_max_depth": 4,
+        "compute_ms": 1.3,
+        "analysis_runs": 1,
+        "threshold": 0.2,
+        "api_ms": 3.4
+      }
+    ],
+    "size_distribution": {
+      "0.0625": 34,
+      "0.125": 31
+    },
+    "body_median_size": 0.125,
+    "ear_median_size": 0.0625
+  }
+]

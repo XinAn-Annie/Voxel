@@ -1,0 +1,44 @@
+[
+  {
+    "model": "cube",
+    "candidate_nodes": 32768,
+    "counts": [
+      64,
+      64,
+      512
+    ]
+  },
+  {
+    "model": "sphere",
+    "candidate_nodes": 18288,
+    "counts": [
+      64,
+      64,
+      408
+    ]
+  },
+  {
+    "model": "animal",
+    "candidate_nodes": 1548,
+    "counts": [
+      154,
+      154,
+      170
+    ]
+  },
+  {
+    "model": "Bear_3d",
+    "candidate_nodes": 5145,
+    "counts": [
+      471,
+      552,
+      585
+    ],
+    "face_mean_depth": 3.9,
+    "back_mean_depth": 3.0,
+    "curvature_weight_counts": [
+      495,
+      656
+    ]
+  }
+]
